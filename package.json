@@ -1,5 +1,5 @@
 {
-  "name": "babel-config",
+  "name": "@cyber-config/babel-config",
   "version": "1.0.1",
   "description": "cyber系列通用的babel配置",
   "main": "index.js",
