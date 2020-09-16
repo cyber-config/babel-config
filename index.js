@@ -12,11 +12,6 @@ module.exports = {
     [require.resolve("@babel/plugin-proposal-class-properties"), { loose: true }],
     [require.resolve("@babel/plugin-transform-runtime")],
     [require.resolve("babel-plugin-import"), {
-      libraryName: "antd",
-      libraryDirectory: "es",
-      style: true
-    }],
-    [require.resolve("babel-plugin-import"), {
       libraryName: "antd-mobile",
       libraryDirectory: "es",
       style: true
