@@ -15,6 +15,11 @@ module.exports = {
       libraryName: "antd",
       libraryDirectory: "es",
       style: true
+    }],
+    [require.resolve("babel-plugin-import"), {
+      libraryName: "antd-mobile",
+      libraryDirectory: "es",
+      style: true
     }]
   ]
 };
